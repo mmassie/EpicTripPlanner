@@ -1,5 +1,6 @@
 angular
   .module('myApp',['ngMaterial'])
+.module('myApp',['ngMaterial'])
   .controller('GridCtrl', ['$scope', function ($scope) {
     $scope.grid = [[1,2],[3,4],[5,6]];
   }]);
